@@ -6,14 +6,14 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![beaverhabits](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![beaverhabits](images/preview.png)](https://github.com/Swift-Tech-Co/beaverhabits)
 
 ## Cloud Service (SaaS)
 
 Zero configuration, high availability, and low latency powered by global edge network.
 
-- Demo: https://www.swifttechco.com
-- Pricing Plans: https://www.swifttechco.com
+- Demo: https://github.com/Swift-Tech-Co/beaverhabits
+- Pricing Plans: https://github.com/Swift-Tech-Co/beaverhabits
 
 ## Self-Hosting
 
@@ -44,7 +44,7 @@ services:
     user: 1000:1000 # User permissions of your docker or default user.
     environment:
       # See the link below to find all the environment variables
-      # https://www.swifttechco.com
+      # https://github.com/Swift-Tech-Co/beaverhabits
       - HABITS_STORAGE=USER_DISK # DATABASE stores in a single SQLite database named habits.db. USER_DISK option saves in a local json file.
       - TRUSTED_LOCAL_EMAIL=your@email.com # Skip authentication
       - INDEX_HABIT_DATE_COLUMNS=5 # Customize the date columns for the index page.
@@ -59,7 +59,6 @@ services:
 
 P.S. The container starts as nobody to increase the security and make it OpenShift compatible.
 To avoid permission issues, ensure that the UID owning the host folder aligns with the UID of the user inside the container.
-
 
 ## Development
 
@@ -93,13 +92,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/beaverhabits
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [daya0576/beaverhabits](https://github.com/daya0576/beaverhabits) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
