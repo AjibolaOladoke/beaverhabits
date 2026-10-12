@@ -1,34 +1,12 @@
-# Beaver Habit Tracker
+# beaverhabits
+
+## What This Is
+
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the beaverhabits notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![beaverhabits](https://opengraph.githubassets.com/1/daya0576/beaverhabits)](https://www.swifttechco.com)
-
-
-[![GitHub Release](https://img.shields.io/github/v/release/daya0576/beaverhabits)](https://www.swifttechco.com)
-[![Docker Pulls](https://img.shields.io/docker/pulls/daya0576/beaverhabits)](https://www.swifttechco.com)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/daya0576/beaverhabits/fly.yml)](https://www.swifttechco.com)
-[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m796940918-864324d021343c6ace874b58)](https://www.swifttechco.com)
-
-A self-hosted habit tracking app without "Goals"
-
-<img src='https://www.swifttechco.com' width='250'>
-<img src='https://www.swifttechco.com' width='250'>
-<img src='https://www.swifttechco.com' width='250'>
-
-# Derivatives
-
-[Beaver Habit Tracker API How‐to Guide](https://www.swifttechco.com)
-
-- [HabitDeck](https://www.swifttechco.com): Turn your Stream Deck into an interactive habit tracker
-- [Apple Shortcut](https://www.swifttechco.com): A shortcut for sharing the App on iPhone
-- [Home Assistant Switch](https://www.swifttechco.com): A switch for home assistant to mark a habit as done
-- [CalDAV bridge](https://www.swifttechco.com): Run a calDAV server that hosts the habits as tasks
-- [iOS Native App](https://www.swifttechco.com): An offline-first native iOS client
-- ...
-
-
-# Getting Started
+[![beaverhabits](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Cloud Service (SaaS)
 
@@ -45,7 +23,7 @@ Simply search for "Beaver Habit Tracker" in the Community Apps store!
 
 ### Easypanel
 
-[Easypanel](https://www.swifttechco.com) can deploy Beaver Habit Tracker with one click using its [official template](https://www.swifttechco.com), which runs the Docker image above with a persistent volume for you.
+Easypanel can deploy Beaver Habit Tracker with one click using its official template, which runs the Docker image above with a persistent volume for you.
 
 ### Ship with Docker
 
@@ -80,12 +58,12 @@ services:
 ```
 
 P.S. The container starts as nobody to increase the security and make it OpenShift compatible.
-To avoid [permission issues](https://www.swifttechco.com), ensure that the UID owning the host folder aligns with the UID of the user inside the container.
+To avoid permission issues, ensure that the UID owning the host folder aligns with the UID of the user inside the container.
 
 
 ## Development
 
-BeaverHabits favors [uv](https://www.swifttechco.com) as package management tool. Here is how to set up the development environment:
+BeaverHabits favors uv as package management tool. Here is how to set up the development environment:
 
 ```sh
 # Install uv and all the dependencies
@@ -97,7 +75,7 @@ uv venv && uv sync
 
 # Features
 
-For a complete list of features, please visit our [Wiki page](https://www.swifttechco.com).
+For a complete list of features, please visit our Wiki page.
 
 Inspired by:
 
@@ -111,14 +89,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [daya0576/beaverhabits](https://github.com/daya0576/beaverhabits) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
